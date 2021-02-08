@@ -1,0 +1,10 @@
+askvortsov-discussion-templates:
+  admin:
+    tags:
+      tag_template_heading: Beszélgetés minta
+      tag_template_text: Minta kezelése új beszélgetésekhez, ebben a tag-ben.
+      tag_template_button: Minta szerkesztése
+    tag_template_modal:
+      title: Beszélgetés Minta
+      customize_text: Minta kezelése új beszélgetésekhez, ebben a tag-ben.
+      submit_button: Minta mentése
