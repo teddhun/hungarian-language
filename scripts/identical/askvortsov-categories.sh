@@ -3,7 +3,7 @@ REPO='askvortsov1/flarum-categories' #Repository name
 LOCALE='resources/locale' #Locale folder path
 
 YAML1='en.yml' #Original yaml file
-YAML2='flarum-categories.yml' #Translated yaml file
+YAML2='askvortsov-categories.yml' #Translated yaml file
 
 TEMP_DIR=`mktemp -d`
 WORK_DIR=`pwd`
