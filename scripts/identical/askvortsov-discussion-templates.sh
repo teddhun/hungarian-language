@@ -3,7 +3,7 @@ REPO='askvortsov1/flarum-discussion-templates' #Repository name
 LOCALE='resources/locale' #Locale folder path
 
 YAML1='en.yml' #Original yaml file
-YAML2='flarum-discussion-templates.yml' #Translated yaml file
+YAML2='askvortsov-discussion-templates.yml' #Translated yaml file
 
 TEMP_DIR=`mktemp -d`
 WORK_DIR=`pwd`
