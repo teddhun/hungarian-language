@@ -1,0 +1,31 @@
+fof-user-directory:
+    forum:
+        search:
+            users_heading: 'Az összes felhasználó között keresése erre: "{query}"'
+        page:
+            nav: Felhasználói fiókok
+            refresh_tooltip: => core.forum.index.refresh_tooltip
+            load_more_button: => core.ref.load_more
+            empty_text: Nem találtunk egy felhasználót sem, mely megfelel a keresésednek.
+
+    admin:
+        permissions:
+            view_user_directory: Felhasználói fiók megtekintése
+        settings:
+            link: Link hozzáadása a főoldalon, hogy a felhaszálók lássák fiókjukat
+            default-sort: Alapértelmezett rendezés
+
+    lib:
+        sort:
+            not_specified: Flarum Alapértelmezett
+            default: Alapértelmezett
+            username_az: Felhasználónév (a-z)
+            username_za: Felhasználónév(z-a)
+            newest: Legújabb
+            oldest: Legrégebbi
+            seen_recent: Legutóbb elérhető
+            seen_oldest: Legrégebben elérhető
+            most_posts: Legtöbb poszt
+            least_posts: Legkevesebb poszt
+            most_discussions: Legtöbb beszélgetés
+            least_discussions: Legkevesebb beszélgetés

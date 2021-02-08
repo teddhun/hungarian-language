@@ -1,0 +1,28 @@
+{
+    "name": "teddhun/hungarian-language",
+    "type": "flarum-extension",
+    "description": "Hungarian language pack",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": ">=0.1.0-beta.15 <0.1.0-beta.16"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Hungarian",
+            "icon": {
+				"image": "icon.png",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "hu",
+            "title": "Hungarian"
+        }
+    }
+}

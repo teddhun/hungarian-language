@@ -1,0 +1,27 @@
+core:
+  forum:
+    index_sort:
+      popular_button: Népszerű
+      unpopular_button: Népszerűtlen
+
+michaelbelgium-discussion-views:
+  forum:
+    modal_resetviews:
+      title: Téma megtekintésszámának nullázása
+      submit_button: Igen, távolítsd el mind.
+      label: Ez {count} megtekintést fog törölni a beszélgetésről. Folytatod?|Ez {count} megtekintés fog törölni a beszélgetésről.
+    discussion_controls:
+      resetviews_button: Megtekintések visszaállítása
+    viewlist:
+      title: Legutóbbi megtekintők
+  admin:
+      permissions:
+        reset_views_label: Beszélgetés megtekintésszámának visszaállítása
+        view_number_label: Beszélgetés megtekintésszámának megnézése
+      settings:
+        title: Discussionviews beállítások
+        track_unique_label: Különálló megtekintések számonkövetése
+        abbr_numbers_label: Rövidített megtekintések
+        show_filter_label: (Nem)Populáris szűrési mező engedélyezése
+        max_viewcount_label: Legnagyobb megtekintésszámű elemek
+        show_viewlist_label: Megtekintés lista bekapcsolása

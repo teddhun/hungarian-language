@@ -1,0 +1,16 @@
+sycho-profile-cover:
+  admin:
+    thumbnails: Indexkép létrehozása
+    max_size: Borítókép maximum mérete (KB)
+    permission:
+      set_cover: Borítókép beállítása
+  forum:
+    cover: Borítókép
+    edit_cover: Borítókép módosítása
+    notice: "Maximum méret: {size}"
+    added:
+      success: A borítókép frissítve lett.
+      error: A képet nem lehet feltölteni.
+    removed:
+      success: A borítókép törölve lett.
+      error: A borítókép törlése meghiúsult. Próbáld újra később.

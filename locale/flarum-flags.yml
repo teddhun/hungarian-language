@@ -1,0 +1,64 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Posztok megjelölése
+      view_flags_label: Jelölt posztok megtekintése
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      flag_own_posts_label: Felhasználók posztmegjelölési engedélye
+      guidelines_url_label: Közösségi irányelvek URL-je
+      title: Jelölési beállítások
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: Köszönjük, hogy megjelölted a posztot. Moderátoraink hamarosan ránéznek.
+      dismiss_button: => core.ref.okay
+      reason_details_placeholder: Kiegészítő információk (opcionális)
+      reason_inappropriate_label: Helytelen
+      reason_inappropriate_text: "Ez a poszt támadó jellengű, sértő, vagy megszegi a <a>közösségi irányelveinket</a>."
+      reason_missing_message: Kérlek adj meg néhány részletet a moderátorainknak.
+      reason_off_topic_label: "Off-topic"
+      reason_off_topic_text: Ez a poszt nem kapcsolódik a jelenlegi beszélgetéshez, így máshová helyezendő.
+      reason_other_label: Egyéb (kérlek pontosíts)
+      reason_spam_label: Spam
+      reason_spam_text: Ez a poszt egy hirdetés.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Nincsenek jelöléseid
+      item_text: "{username} in <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: Jelölés eltüntetése
+      flagged_by_text: "Megjelölve {username} által"
+      flagged_by_with_reason_text: "Megjelölve {username} által mint {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: Jelölések
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Poszt megjelölése
+    flagged_posts: Jelölt posztok

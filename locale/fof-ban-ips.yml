@@ -1,0 +1,76 @@
+fof-ban-ips:
+  forum:
+    ban_ip_button: => fof-ban-ips.ref.ban_ip_button
+    unban_ip_button: => fof-ban-ips.ref.unban_ip_button
+
+    modal:
+      ban_options_only_ip: Csak a jelenlegi IP cím kitiltása (<code>{ip}</code>)
+      ban_options_all_ip: Az összes IP cím kitiltása melyet <i>{username}</i> használ
+      ban_ip_no_users: Senki más nem lesz kitiltva
+
+    user_badge:
+      banned_tooltip: Kitiltott
+
+    user_controls:
+      ban_button: => fof-ban-ips.ref.ban_label
+      unban_button: => fof-ban-ips.ref.unban_label
+
+  admin:
+    permissions:
+      ban_ip_label: => fof-ban-ips.ref.ban_ip_addresses
+      view_banned_ip_list_label: Kitiltott IP cím(ek) megtekintése
+
+    page:
+      create_button: => fof-ban-ips.ref.ban_ip_button
+
+      creator_label: Kreátor
+      user_label: Felhasználó
+      address_label: => fof-ban-ips.ref.address_label
+      reason_label: => fof-ban-ips.ref.reason_label
+      date_label: Dátum
+
+    modal:
+      update_title: Kitiltott IP cím frissítése
+      ban_ip_no_users: Senki sem lesz kitiltva
+
+    empty_text: Nem találhatóak kitiltott IP címek.
+
+  error:
+    banned_ip_message: Sikertelen hitelesítés
+    no_ips_found_message: Nem található IP cím az adott felhasználónak.
+
+  lib:
+    modal:
+      title: => fof-ban-ips.ref.ban_ip_addresses
+      unban_title: => fof-ban-ips.ref.unban_ip_addresses
+
+      address_label: => fof-ban-ips.ref.address_label
+      reason_label: => fof-ban-ips.ref.reason_label
+
+      check_button: Ellenőrzés
+      save_button: Mentés
+
+      ban_ip_confirmation: "Biztos vagy benne, hogy blokkolni szeretnéd az IP címet a fórum használatától? Ez meg fogja gátolni a bejelentkezést, illetve a regisztrációt erről az IP címről."
+      ban_ip_users: A következő felhasználó {users} kitiltásra kerül|A következő felhasználók {users} kitiltásra kerülnek
+
+      unban_ip_confirmation: Biztosan fel szeretnéd oldani a felhasználó kitiltását és az összes másik felhasználóét is akik ugyanezen IP cím által vannak kitiltva?
+      unban_options_only_ip: "Csak a jelenlegi IP cím kitiltásának feloldása (<code>{ip}</code>)"
+      unban_options_all_ip: "Minden IP cím kitiltásának feloldása melyet ő használ: <i>{username}</i>"
+      unban_ip_no_users: Senki más nem lesz kitiltva
+      unban_ip_users: Felhasználó {users} kitiltása feloldásra kerül|Felhaszlnáló {users} kitiltása feloldásra kerül
+      unbanned_ips: Feloldott <code>{ips}</code>.
+
+      ban_button: => fof-ban-ips.ref.ban_label
+      unban_button: => fof-ban-ips.ref.unban_label
+
+  ref:
+    ban_label: Kitiltás
+    ban_ip_addresses: IP cím(ek) kitiltása
+    ban_ip_button: IP cím kitiltása
+
+    unban_label: Kitiltás feloldása
+    unban_ip_addresses: IP cím(ek) kitiltásának feloldása
+    unban_ip_button: IP cím kitiltásának feloldása
+
+    address_label: IP cím
+    reason_label: Indok

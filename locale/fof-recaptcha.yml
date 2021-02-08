@@ -1,0 +1,17 @@
+fof-recaptcha:
+  admin:
+    settings:
+      help_text: Szerezd meg a Google reCAPTCHA meghatalmazásod <a>itt</a>.
+      secret_key_label: Titkos kulcs
+      site_key_label: Oldal kulcs
+      title: FriendsOfFlarum reCAPTCHA
+      type_label: reCAPTCHA típus
+    permissions:
+      post_without_captcha: Posztok és beszélgetések létrehozása captcha nélkül.
+  forum:
+    # This text is shown on the javascript error callback for reCAPTCHA.
+    # This is a generic error handler and we don't have access to the reason, so the message has to be vague.
+    error: Hiba történt a reCAPTCHA beküldése során. Próbáld újra!
+
+validation:
+  recaptcha: reCAPTCHA megerősítése sikertelen.

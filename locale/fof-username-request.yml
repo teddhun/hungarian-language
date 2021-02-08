@@ -1,0 +1,82 @@
+--- 
+fof-username-request: 
+  admin: 
+    permissions: 
+      moderate_requests: "Felhasználónév/becenév változtati kérelem elfogadása"
+      request_nickname: "Becenév változtatási kérelem"
+      request_username: "Felhasználónév változtatási kérelem"
+  forum: 
+    nickname_modals: 
+      action: 
+        approval_label: Elfogadás
+        decision_title: Döntés
+        help_text: "Bizonyosodj meg arról, hogy a kérelmezett beceneved megfelel az előírásoknak."
+        name: "{name} meg szeretné változtatni a becenevét erre: \"{requestedName}\""
+        reason_title: "Elutasítás indoka"
+        rejected_label: Elutasítás
+        submit_button: Beküldés
+        success: "Döntés elküldve"
+        title: "=> fof-username-request.ref.nickname_change_request"
+      request: 
+        confirmation_message: "A becenév változtatási kérelmed beküldésre került és hitelesítésre vár."
+        current_request: "Már beküldtél egy becenév változtatási kérelmet erre a névre: {name}. Frissítheted a kérelmet vagy törölheted is."
+        delete_button: "Kérelem törlése"
+        deleted: "Becenév változtatási kérelem törölve."
+        dismiss_button: "=> core.ref.okay"
+        submit_button: "Kérelem beküldése"
+        title: "Becenév változtatási kérelem"
+      results: 
+        approved: "A becenév változtatási kérelmed elfogadásra került."
+        dismiss_button: "=> core.ref.okay"
+        new_name: "A beceneved sikeresen meg lett változtatva erre: {name}"
+        reason: "Elutasítás indoka: <i>\"{reason}\"</i>."
+        rejected: "A becenév változtatási kérelmed elutasításra került."
+        resubmit: "Kérhetsz újabb becenév változtatási kérelmet a fiókod beállításai között, ha úgy döntesz."
+        title: "Becenév változtatási kérelem"
+    pending_requests: 
+      empty_text: "Nincsenek névváltoztatási kérelmek."
+      nickname_exerpt: "Kért becenév: {requestedName}"
+      nickname_item_text: "{name} becenév változtatást kérelmezett"
+      title: "=> fof-username-request.ref.name_change_requests"
+      tooltip: "=> fof-username-request.ref.name_change_requests"
+      username_exerpt: "Kért felhasználónév: {requestedName}"
+      username_item_text: "{name} felhasználónév változtatást kérelmezett"
+    settings: 
+      nickname_request_button: "Becenév megváltoztatása"
+      username_request_button: "Felhasználónév megváltoztatása"
+    user: 
+      name_history_link: "Korábbi nevek"
+    username_modals: 
+      action: 
+        approval_label: Elfogadás
+        decision_title: Döntés
+        help_text: "Bizonyosodj meg arról, hogy  a kérelmezett felhasználónév megfelel az előírásoknak."
+        name: "{name} meg szeretné változtatni a felhasználónevét erre: \"{requestedName}\""
+        reason_title: "Elutasítás indoka"
+        rejected_label: Elutasítás
+        submit_button: Beküldés
+        success: "Döntés elküldve."
+        title: "=> fof-username-request.ref.username_change_request"
+      request: 
+        confirmation_message: "A felhasználónév változtatási kérelmed beküldésre került és hitelesítésre vár."
+        current_request: "Már beküldtél egy felhasználónév változtatási kérelmet erre a névre: {name}. Frissítheted a kérelmet vagy törölheted is."
+        delete_button: "Kérelem törlése"
+        deleted: "Felhasználónév változtatási kérelem törölve."
+        dismiss_button: "=> core.ref.okay"
+        submit_button: "Kérelem beküldése"
+        title: "Felhasználónév változtatási kérelem"
+      results: 
+        approved: "A felhasználónév változtatási kérelmed elfogadásra került."
+        dismiss_button: "=> core.ref.okay"
+        new_name: "A felhasználóneved sikeresen meg lett változtatva erre: {name}"
+        reason: "Elutasítás indoka: <i>\"{reason}\"</i>."
+        rejected: "A felhasználónév változtatási kérelmed elutasításra került."
+        resubmit: "Kérhetsz újabb felhasználónév változtatási kérelmet a fiókod beállításai között, ha úgy döntesz."
+        title: "Felhasználónév változtatási kérelem"
+  ref: 
+    name_change_request: "Névváltoztatási kérelem"
+    name_change_requests: "Névváltoztatási kérelmek"
+    nickname_change_request: "Becenévváltoztatási kérelem"
+    nickname_change_requests: "Becenévváltoztatási kérelmek"
+    username_change_request: "Felhasználónévváltoztatási kérelem"
+    username_change_requests: "Felhasználónévváltoztatási kérelmek"

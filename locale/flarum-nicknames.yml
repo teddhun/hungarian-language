@@ -1,0 +1,15 @@
+flarum-nicknames:
+  forum:
+    edit_user:
+      nicknames_heading: Becenév megváltoztatása:
+    settings:
+        change_nickname_button: Becenév megváltoztatása
+  admin:  
+    wrong_driver: Hibás driver!
+    settings:
+      unique_label: Becenevek használata felhasználók nevei helyett.
+      regex_label: Regex kód
+      min_label: Minimum hosszúság
+      max_label: Maximum hosszúság
+    permissions:
+      edit_own_nickname_label: Saját becenév modosítása

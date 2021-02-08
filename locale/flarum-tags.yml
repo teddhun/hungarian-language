@@ -1,0 +1,118 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: => core.ref.color
+      delete_tag_button: Címke törlése
+      delete_tag_confirmation: "Biztosan szeretnéd törölni a címkét? A címkével ellátott beszélgetés NEM kerül törlésre."
+      description_label: Leírás
+      hide_label: Elrejtés az Összes beszélgetés közül
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Slug
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Az összes elérhető címke kezelése a beszélgetések rendezéséhez.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Címke módosítás engedélyezése
+      restrict_by_tag_heading: Címke szerinti korlátozás
+      tag_discussions_label: Beszélgetés felcímkézése
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " - "
+      required_primary_heading: Elsődleges címkék szükséges száma.
+      required_primary_text: Írd be az elsődleges címkék minimum és maximum számát melyek a beszélgetésre helyezhetőek.
+      required_secondary_heading: Másodlagos címkék szükséges száma.
+      required_secondary_text: Írd be a másodlagos címkék minimum és maximum számát melyek a beszélgetésre helyezhetőek.
+      title: Címke Beállítások
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "A címkék a beszélgetések kategorizálására vannak. Az elsődleges címkék olyan mint a fórum kategóriák: két szintű hierarchiába lehet elosztani őket. A másodlagos címkéknek nincs hierarchiája vagy sorrendje és hasznosak a mikro-kategorizáláshoz."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Elsődleges címkék
+      secondary_heading: Másodlagos címkék
+      settings_button: Beállítások
+      settings_heading: Címkék szükséges száma
+      create_primary_tag_Button: Elsődleges címke létrehozása
+      create_secondary_tag_button: Másodlagos címke létrehozása
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed on the page that lists all tags.
+    all_tags:
+      meta_description_text: Összes címke
+      meta_title_text: => flarum-tags.ref.tags
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Válassz egy elsődleges címkét|Válassz {count} elsődleges címkét"
+      choose_secondary_placeholder: "Válassz még 1 címkét|Válassz {count} másik címkét"
+      edit_title: "Címkék szerkesztése itt: {title}"
+      submit_button: => core.ref.okay
+      title: Válassz címkéket a beszélgetésedhez
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Válassz címkéket
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Címkék módosítása
+
+    header:
+      back_to_tags_tooltip: Vissza a címkék listájához
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: Több...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Jelöletlen
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_and_removed_tags_text: "{username} hozzáadta a(z) {tagsAdded} és eltávolította a(z) {tagsRemoved}."
+      added_tags_text: "{username} hozzáadta a(z) {tagsAdded}."
+      removed_tags_text: "{username} eltávolította a(z) {tagsRemoved}."
+      tags_text: "{tags} címke|{tags} címkék"
+
+    # These translations are used when visiting a single tag's discussion list.
+    tag:
+      meta_description_text: "Az összes beszélgetés a(z) {tag} címkével"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Törölt
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Címke létrehozása
+    name: Név
+    tags: Címkék

@@ -1,0 +1,19 @@
+fof-pretty-mail:
+  admin:
+    nav:
+      desc: HTML email minták személyreszabása.
+    settings:
+      label: Email minták
+      reset: Visszaállítás alapértelmezettre
+      confirm: Biztosan vissza szeretnéd állítani az alapértelmezett email mintát ennek?
+      default: Alapértelmezett minta
+      newPost: Flarum/subscriptions, Új poszt email
+      userMentioned: Flarum/mentions, Felhasználó által megemlített email
+      postMentioned: Flarum/mentions, Poszt által megemlített email
+      notifications: Értesítési minták
+      notificationHelp: 'It is recommended to use "$forumStyle" for these emails as they may contain BBCODE. These emails also have "$user" available which contains the entire user model of the user being emailed.'
+      help: '"$body" will contain the actual content of the email, "$forumStyle" contains the <strong>entire forum CSS</strong>, "$url" is Flarums UrlGenerator, "$settings" allows you to interact with the SettingsRepositoryInterface, and "$link" contains the link within the email. See each template for how to use each variable.'
+    css_settings:
+      label: CSS beállítások
+      help: Kiválaszthatod, hogy használja-e a fórum CSS fájlját az email HTML kódban. Ha engedélyezed ezt, tapasztalhatsz problémákat bizonyos email szolgáltatóknál
+      switch_label: Teljes fórum CSS használata

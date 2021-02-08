@@ -1,0 +1,37 @@
+flarum-suspend:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      suspend_users_label: Felhasználó felfüggesztése
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "{username} felfüggesztett, melynek időtartama: {timeReadable}"
+      user_unsuspended_text: "{username} feloldotta a felfüggesztésed."
+
+    # These translations are used in the Suspend User modal dialog (admin function).
+    suspend_user:
+      indefinitely_label: Meghatározatlan ideig felfüggesztve
+      limited_time_days_text: " nap"
+      limited_time_label: Felfüggesztett meghatározott ideig...
+      not_suspended_label: Nem felfüggesztett
+      status_heading: Felfüggesztési Státusz
+      submit_button: => core.ref.save_changes
+      title: "{username} felfüggesztése"
+
+    # These translations are displayed as tooltips for user badges.
+    user_badge:
+      suspended_tooltip: Felfüggesztett
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      suspend_button: Felfüggeszt

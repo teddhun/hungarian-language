@@ -1,0 +1,41 @@
+fof-drafts:
+  admin:
+    permissions:
+      start: Piszkozat Létrehozása
+      schedule: Piszkozatok ütemezése
+    settings:
+      title: FoF Piszkozatok
+      enable_scheduled_drafts: Ütemezett piszkozatok engedélyezése
+      schedule_on_one_server: Use 'onOneServer()' directive for the task scheduler (requires Redis/Memcache)
+      schedule_log_output: Append scheduler output to log storage
+  console:
+    scheduled_drafts_disabled: Időzített piszkozatok jelenleg tíltva vannak a beállításokban!
+  forum:
+    composer:
+      title: Piszkozat mentés
+      saving: Mentés...
+      saved: Mentve!
+      exit_alert: Elveted a piszkozati módosításokat?
+      discard_empty_draft_alert: Elveted az üres piszkozatot?
+    dropdown:
+      empty_text: Nem mentettél el egy piszkozatot sem
+      title: Piszkozatok
+      delete_button: Piszkozat törlése
+      schedule_button: Piszkozat ütemezése
+      tooltip: => fof-drafts.forum.dropdown.title
+      alert: Biztos vagy benne, hogy szeretnéd törölni a piszkozatot?
+    schedule_draft_modal:
+      title: Piszkozat ütemezés
+      text: Ütemezd a piszkozatodat, hogy automatikusan posztolja egy későbbi időpontban!
+      scheduled_text: Poszt ütemezve {datetime}.
+      scheduled_error: "Nem lehet posztolni mert: {error}."
+      unschedule_button: Ütemezés visszavonása
+      reschedule_button: Újraütemezés
+      schedule_button: Ütemezés
+    user:
+      settings:
+        drafts_heading: Piszkozatok
+        draft_autosave_enable: Engedélyezi a piszkozatok automatikus mentését?
+        draft_autosave_interval_label: Automatikus mentés intervalluma (seconds)
+        draft_autosave_interval_button: Intervallum Frissítése
+        draft_autosave_interval_invalid: Az intervallum számértékének nagyobbnak kell lennie mint 4.

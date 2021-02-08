@@ -1,0 +1,15 @@
+clarkwinkelmann-emojionearea:
+    forum:
+        picker_button: Emoji választó
+        search_placeholder: Keresés...
+
+    admin:
+        settings:
+            title: EmojioneArea beállítások
+            enableSearch: Keresés engedélyezése
+            enableRecent: Utóbbiak engedélyezése
+            enableTones: Tónusok engedélyezése
+            filtersPosition: Kategóriák mozgatása alulra
+            searchPosition: Keresés és tónusok mozgatása alulra
+            hideFlarumButton: A Flarum emoji választó gombjának eljertése
+            hideFlarumButtonHelp: Az "Emoji Picker" bővítménynek bekapcsolva kell lennie az "Emoji" bővítmény után ahhoz, hogy működjön.
