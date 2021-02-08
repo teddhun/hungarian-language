@@ -16,12 +16,3 @@ Run the following command in the location where Flarum is installed:
 composer update teddhun/hungarian-language
 php flarum cache:clear
 ```
-
-## Dev-master
-
-**Do you want to have the very last translations?** Use the *dev-master* branch !
-
-```bash
-composer require teddhun/hungarian-language:dev-master
-php flarum cache:clear
-```
