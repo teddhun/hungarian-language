@@ -1,7 +1,7 @@
 {
     "name": "teddhun/hungarian-language",
     "type": "flarum-extension",
-    "description": "Hungarian language pack",
+    "description": "Extented Hungarian language pack for Flarum",
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
