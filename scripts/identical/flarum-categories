@@ -1,5 +1,5 @@
 VERSION='master' #Repository version
-REPO='askvortsov/flarum-categories' #Repository name
+REPO='askvortsov1/flarum-categories' #Repository name
 LOCALE='resources/locale' #Locale folder path
 
 YAML1='en.yml' #Original yaml file
