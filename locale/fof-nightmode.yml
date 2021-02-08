@@ -1,0 +1,33 @@
+fof-nightmode:
+    ref:
+        auto: Automatikus (böngésző vagy készülék beállítások alapján)
+        light: Nappali mód
+        dark: Éjszakai mód
+
+    admin:
+        settings:
+            modal:
+                default_theme: Alapértelmezett fórum téma
+                default_theme_helper: Az alapértelmezett téma jelenik meg automatikusan az új felhasználóknak és a vendégeknek.
+                theme_auto: => fof-nightmode.ref.auto
+                theme_light: => fof-nightmode.ref.light
+                theme_dark: => fof-nightmode.ref.dark
+    forum:
+        day: => fof-nightmode.ref.light
+        night: => fof-nightmode.ref.dark
+
+        user:
+            settings:
+                heading: Téma
+                description: Válaszd ki milyen színtémát szeretnél használni a fórumon.
+                description2:  Ez a téma automatikusan a felhasználódhoz lesz csatolva és érvényben lesz minden készülékeden, hacsak nem kapcsolod be a készülékenkénti beállítást.
+                device_specific_setting_checkbox: Készülékenkénti beállítás
+                device_specific_setting_checkbox_tooltip: A témaválasztásod egyenként mentésre kerül eszközeiden.
+                options:
+                    auto: => fof-nightmode.ref.auto
+                    day: => fof-nightmode.ref.light
+                    night: => fof-nightmode.ref.dark
+                option_descriptions:
+                    auto: Az témád automatikusan beállításra kerül a böngésző vagy készülékbeállításaid alapján. Például ha éjszakai módot használsz IOS-en, a fórumok is éjszakai módban jelennek meg.
+                    day: A klasszikus élmény amihez hozzászoktál. 
+                    night: Éjjeli bagolynak tűnsz. Fórumot olvasol amikor a madarak alszanak és a rókák vadásznak. Vagy csak a sötét színeket preferálod!
