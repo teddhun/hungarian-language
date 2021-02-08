@@ -1,0 +1,34 @@
+askvortsov-categories:
+  admin:
+    basics:
+      categories_label: Kategóriák
+    labels:
+      keep_tags_nav: A megemlítések oldalánal linkjét tartsa a navigációs oldalsávon?
+      child_bare_icon: Az alkategóriás ikonok kör alakú háttér nélkül jelnjenek meg?
+      compact_mobile_mode: Kompakt telefonos mód
+      full_page_desktop: Az oldalsáv navigációs menüje essen össze egy sorba (mint a tradícionális megemlítés oldalán)? Ez a kisalkalmazásokat is el fogja rejteni a kategóriák navigációs sávján.
+      parent_remove_icon: Ikonok elrejtése a felső szintű megemlítésekhez?
+      parent_remove_description: Leírások elrejtése a felső szintű megemlítésekhez?
+      parent_remove_stats: Statisztikák elrejtése a felső szintű megemlítésekhez?
+      parent_remove_last_discussion: Legkorábbi beszélgetések elrejtése magas szintű megemlítésekhez?
+      small_forum_optimized: Optimalizáljunk kis fórumokra? Ez pontosabb beszélgetés/poszt számot fog adni de dramatikusan lassítja a közepes és nagy fórumokat.
+    headings:
+      nav: Navigáció
+      layout: Elrendezés
+      parent_display: Főkategória megjelenítése
+      child_display: Alkategória megjelenítése
+      performance: Teljesítmény
+    title: Kategória beállítások
+  forum:
+    categories:
+    header:
+      back_to_categories_tooltip: Vissza a kategóriákhoz
+    index:
+      categories_link: Kategóriák
+    meta:
+      categories_title: Kategóriák
+    stat-widgets:
+      discussion_label: Beszélgetések
+      post_label: Posztok
+    last_discussion_widget:
+      no_discussions: Nincsenek beszélgetések (Még!)
