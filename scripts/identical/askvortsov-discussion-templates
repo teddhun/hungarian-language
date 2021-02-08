@@ -1,5 +1,5 @@
 VERSION='master' #Repository version
-REPO='askvortsov1/discussion-templates' #Repository name
+REPO='askvortsov1/flarum-discussion-templates' #Repository name
 LOCALE='resources/locale' #Locale folder path
 
 YAML1='en.yml' #Original yaml file
