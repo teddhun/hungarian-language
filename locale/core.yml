@@ -345,7 +345,7 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Elfejetetted a jelszavad?"
+      forgot_password_link: "Elfelejtetted a jelszavadat?"
       invalid_login_message: A bejelentkezési adatok helytelenek.
       password_placeholder: => core.ref.password
       remember_me_label: Emlékezz rám
