@@ -40,7 +40,7 @@ flarum-subscriptions:
       following_button: => flarum-subscriptions.ref.following
       following_text: Be notified of all replies.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
+      ignoring_text: Sosem kapsz értesítést. Elrejtés a beszélgetések közül.
       not_following_button: Nem követem
       not_following_text: "Csak akkor értesítsen ha @mentioned."
       notify_alert_tooltip: Kapjak értesítést a fórumon amikor vannak új posztok
