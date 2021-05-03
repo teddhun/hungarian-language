@@ -272,7 +272,7 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Nem szólhatsz hozzá.
+      cannot_reply_button: Nem válaszolhatsz.
       cannot_reply_text: Nincs jogosultságod hozzászólni a beszélgetéshez.
       delete_button: => core.ref.delete
       delete_confirmation: "Biztos vagy benne, hogy törölni szeretnéd a beszélgetést?"

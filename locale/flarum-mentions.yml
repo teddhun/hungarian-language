@@ -9,7 +9,7 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      mention_tooltip: Egy felhasználó vagy egy bejegyzés megemlítése
+      mention_tooltip: Említés
       reply_to_post_text: "Válasz erre #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
