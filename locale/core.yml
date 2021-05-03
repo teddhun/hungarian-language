@@ -345,7 +345,7 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Elfejetetted a jelszavad?"
+      forgot_password_link: "Elfelejtetted a jelszavadat?"
       invalid_login_message: A bejelentkezési adatok helytelenek.
       password_placeholder: => core.ref.password
       remember_me_label: Emlékezz rám
@@ -508,7 +508,7 @@ core:
       csrf_token_mismatch_return_link: Lépj vissza az újrapróbáláshoz.
       invalid_confirmation_token: Ez a megerősítő link már fel lett használva vagy érvénytelen. 
       not_authenticated: Nincs jogosultságod az oldal eléréséhez. Próbáld újra bejelentkezés után.
-      not_found: Az általad keresett oldal nem találhaót.
+      not_found: Az általad keresett oldal nem található.
       not_found_return_link: "Visszatérés {forum}"
       permission_denied: Nincs jogosultságod az oldal eléréséhez.
       unknown: Hibába ütköztünk az oldal betöltése során.
