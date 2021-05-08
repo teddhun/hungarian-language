@@ -93,9 +93,9 @@ flarum-tags:
     # These translations are displayed between posts in the post stream.
     post_stream:
       added_and_removed_tags_text: "{username} hozzáadta a(z) {tagsAdded} és eltávolította a(z) {tagsRemoved}."
-      added_tags_text: "{username} hozzáadta a(z) {tagsAdded} címkét."
-      removed_tags_text: "{username} eltávolította a(z) {tagsRemoved} címkét."
-      tags_text: "{tags} címke|{tags} címkék"
+      added_tags_text: "{username} hozzáadta a(z) {tagsAdded}."
+      removed_tags_text: "{username} eltávolította a(z) {tagsRemoved}."
+      tags_text: "{tags} címkét|{tags} címkéket"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:
