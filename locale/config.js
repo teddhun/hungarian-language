@@ -40,29 +40,29 @@ function translate(number, withoutSuffix, key, isFuture) {
    var num = number;
    switch (key) {
        case 's':
-           return (isFuture || withoutSuffix) ? 'néhány másodperc' : 'néhány másodperce';
+           return (isFuture || withoutSuffix) ? 'néhány másodperccel' : 'néhány másodperce';
        case 'ss':
-           return num + (isFuture || withoutSuffix) ? ' másodperc' : ' másodperce';
+           return num + (isFuture || withoutSuffix) ? ' másodperccel' : ' másodperce';
        case 'm':
-           return 'egy' + (isFuture || withoutSuffix ? ' perc' : ' perce');
+           return 'egy' + (isFuture || withoutSuffix ? ' perccel' : ' perce');
        case 'mm':
-           return num + (isFuture || withoutSuffix ? ' perc' : ' perce');
+           return num + (isFuture || withoutSuffix ? ' perccel' : ' perce');
        case 'h':
-           return 'egy' + (isFuture || withoutSuffix ? ' óra' : ' órája');
+           return 'egy' + (isFuture || withoutSuffix ? ' órával' : ' órája');
        case 'hh':
-           return num + (isFuture || withoutSuffix ? ' óra' : ' órája');
+           return num + (isFuture || withoutSuffix ? ' órával' : ' órája');
        case 'd':
-           return 'egy' + (isFuture || withoutSuffix ? ' nap' : ' napja');
+           return 'egy' + (isFuture || withoutSuffix ? ' nappal' : ' napja');
        case 'dd':
-           return num + (isFuture || withoutSuffix ? ' nap' : ' napja');
+           return num + (isFuture || withoutSuffix ? ' nappal' : ' napja');
        case 'M':
-           return 'egy' + (isFuture || withoutSuffix ? ' hónap' : ' hónapja');
+           return 'egy' + (isFuture || withoutSuffix ? ' hónappal' : ' hónapja');
        case 'MM':
-           return num + (isFuture || withoutSuffix ? ' hónap' : ' hónapja');
+           return num + (isFuture || withoutSuffix ? ' hónappal' : ' hónapja');
        case 'y':
-           return 'egy' + (isFuture || withoutSuffix ? ' év' : ' éve');
+           return 'egy' + (isFuture || withoutSuffix ? ' évvel' : ' éve');
        case 'yy':
-           return num + (isFuture || withoutSuffix ? ' év' : ' éve');
+           return num + (isFuture || withoutSuffix ? ' évvel' : ' éve');
    }
    return '';
 }
